@@ -1,0 +1,184 @@
+*{
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(228, 240, 250);
+}
+/* header css*/
+header{
+    background-color: rgb(73, 73, 241);
+    height: 35px;
+}
+header div{
+    display: flex;
+}
+#news{
+    background-color: white;
+    text-align: center;
+    color: red;
+    width: 50px;
+    padding: 9px;
+    margin-left: 80px;
+}
+marquee{
+    margin-top: 10px;
+    color: aliceblue;
+}
+/* nav css*/
+nav,.links{
+    display: flex;
+}
+nav img{
+    width: 200px;
+    margin-left: 80px;
+}
+nav{
+    height: 70px;
+}
+.links{
+    padding: 10px;
+    margin-left: 300px;
+}
+.links a{
+    text-decoration: none;
+    color: black; 
+    padding: 20px;
+}
+/* div background image part 3 */
+.backimg{
+    background-image: url("./pictures/slider.jpg");
+    background-size: cover;
+    height: 400px;
+}
+/* div part 4 */
+.head{
+    width: 330px;
+    background-color: rgb(0, 110, 255);
+    color: aliceblue;
+    padding:10px;
+    text-align: center;
+}
+.content, .contents{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    
+}
+.contents{
+    height: 350px;
+}
+.data{
+    background-color: white;
+    margin: 10px;
+    width: 350px;
+    height: 450px;
+}
+.datas{
+    height:300px;
+    background-color: white;
+    margin: 10px;
+}
+.inside{
+    display: flex;
+    padding: 5px;
+}
+.me{
+    margin-left: 10px;
+}
+.red{
+    background-color: red;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+/* div part 5 */
+.about{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 450px;
+}
+.pic,.para{
+    width: 40%;
+}
+.pic{
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.para>p,h3{
+    margin: 0px;
+}
+.para{
+    margin-top: 80px;
+}
+/* part 7 */
+.container{
+    width: 100%;
+    background-color: white;
+}
+.ab{
+    margin: 0px;
+}
+.decorate{
+    display:flex;
+    justify-content:space-evenly
+}
+.move{
+    margin-left: 20px;
+}
+.bot{
+    display: flex;
+}
+.box{
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px; 
+}
+
+/* part 8 */
+.gallery{
+    width: 1200px;
+    margin-left: 60px;
+    padding: 40px;
+}
+.pics{
+    display: inline;
+}
+.pics img{
+    margin: 20px;
+}
+/* part 9 */
+.place{
+    background-color: white;
+    padding: 40px;
+}
+.placement{
+    margin-left: 60px;
+}
+.foot{
+    text-align: center;
+}
+ul{
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    margin-left: 400px;
+}
+li{
+    list-style:none;
+    padding: 5px;
+    text-align: center;
+}
+.foot>img,p,ul{
+    padding: 10px;
+}
+i{
+    size: 200px;
+}
