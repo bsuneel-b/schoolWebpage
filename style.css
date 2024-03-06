@@ -116,6 +116,14 @@ nav{
     margin-top: 80px;
 }
 /* part 7 */
+.ar>p{
+    margin: 0px;
+    margin-left: 90px;
+
+}
+.ar{
+    margin-bottom: 10px;
+}
 .container{
     width: 100%;
     background-color: white;
